@@ -8,7 +8,7 @@ price_start = int(input('Ищем зарплату от (введите цело
 find_ex = {'$or': [
     # вилка от до
     {'price.start': {'$lte': price_start}, 'price.end': {'$gte': price_start}},
-    # начальная цена не меньшк указанной суммы
+    # начальная цена не меньше указанной суммы
     {'price.start': {'$gte': price_start}},
     # конечная цена не меньше указанной суммы, но стартовой цены нет
     {'price.start': None, 'price.end': {'$gte': price_start}},
