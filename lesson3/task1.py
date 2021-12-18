@@ -17,7 +17,6 @@ def dict_hash(dictionary):
 client = MongoClient('127.0.0.1', 27017)
 db = client['hh']
 vacancies_collection = db.vacancies
-vacancies_collection.delete_many({})
 
 main_url = 'https://hh.ru/search/vacancy'
 params = {'text': 'Python', 'page': 1, 'items_on_page': 20}
