@@ -1,4 +1,3 @@
-import json
 from pprint import pprint
 import hashlib
 from bs4 import BeautifulSoup as bs
