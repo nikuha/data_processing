@@ -2,3 +2,6 @@
 /.idea
 /lesson2/lesson2.py
 /lesson4/lesson4.py
+/lesson5/lesson5.*
+/lesson5/chromedriver.exe
+/lesson3/mongodb.txt
